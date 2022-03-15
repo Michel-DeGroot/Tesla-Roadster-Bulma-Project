@@ -1,23 +1,15 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
-TODO: Write a project description
-## Installation
-TODO: Describe the installation process
-## Usage
-TODO: Write usage instructions
+# Tesla Roadster Landing Page - Bulma Project
 
-## History
+## Welcome! 👋
 
-TODO: Write history
+Thanks for checking out this project.
 
-## Credits
+## The challenge
 
-TODO: Write credits
+Improving my knowledge and skills with the Bulma CSS framework by replicating the Tesla Roadster landing page.
 
-## License
+Built with VS Code.
 
-TODO: Write license
-]]></content>
-<tabTrigger>readme</tabTrigger>
-</snippet>
+## Live Site:
+
+https://michel-degroot.github.io/Tesla-Roadster-Bulma-Project/
