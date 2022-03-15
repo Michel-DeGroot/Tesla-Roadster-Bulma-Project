@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+    <link rel="stylesheet" href="styles/helpers.css">
+    <link rel="stylesheet" href="styles/grid.css">
+    <script defer src="index.js"></script>
+    <style>
+        /* background */
+        .hero {
+            background: black url(images/hero-1.jpg) center / cover;
+        }
+
+        @media (max-width: 1024px) {
+            .hero {
+                background: black url(images/hero-2.jpg) center / cover;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                background: black url(images/hero-3.jpg) center / cover;
+            }
+        }
+
+        /* responsive */
+        @media (max-width: 768px) {
+            :root {
+                font-size: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- .hero -->
+    <section class="hero is-fullheight">
+
+        <!-- .hero-head -->
+        <!-- nav-bar start -->
+<nav class="navbar is-transparent nav-top has-" role="navigation" aria-label="main navigation">
+  <!-- logo / brand -->
+  <div class="navbar-brand px-9">
+    <a class="navbar-item" href="#">
+      <img src="./images/tesla.svg" style="width: 8.25rem; height: 2rem;">
+    </a>
+
+    <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false"
+      data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="nav-links" class="navbar-menu column center desktop">
+    <div class="navbar-start">
+      <a class="navbar-item">MODEL S</a>
+      <a class="navbar-item">MODEL X</a>
+      <a class="navbar-item">MODEL 3</a>
+      <a class="navbar-item is-active">ROADSTER</a>
+      <a class="navbar-item">ENERGY</a>
+
+      
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <div class="buttons">
+          <a class="button is-danger is-inverted is-rounded is-outlined has-text-weight-normal"
+          style="width: 100%; border: 0.10em solid white;">Menu</a>
+          <div class="navbar-dropdown is-transparent">
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Jobs
+            </a>
+            <a class="navbar-item">
+              Contact
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Report an issue
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- navbar end -->
+
+
+
+        <!-- /.hero-head -->
+
+        <!-- .hero-body -->
+        <header class="hero-body">
+            <div class="is-overlay has-text-centered single-spaced" style="top: 92px;">
+                <h2 class="subtitle is-4 has-text-weight-light has-text-black">Tesla</h2>
+                <h1 class="title is-1 has-text-black">Roadster</h1>
+            </div>
+        </header>
+        <!-- /.hero-body -->
+
+        <!-- .hero-foot -->
+        <main class="hero-foot center" style="padding: 2rem;">
+            <div id="grid" style="width: 768px;">
+                <div id="a" class="center-column">
+                    <p class="has-text-centered has-text-white">
+                        ​The fastest car in the world, with record-setting<br>
+                        acceleration, range and performance.
+                    </p>
+                </div>
+                <div id="b" class="center-column">
+                    <p class="title has-text-white">
+                        <i class="fas fa-tachometer-alt has-text-grey-light" style="width: 0.75em; height: 0.75em;"></i>
+                        2.1<span class="is-size-5">s</span>
+                    </p>
+                    <p class="subtitle has-text-white is-7">0-100 km/h</p>
+                </div>
+                <div id="c" class="center-column" style="border-left: 1px solid gray;">
+                    <p class="title has-text-white"><span class="is-size-5">+</span>400<span
+                            class="is-size-5">km/h</span></p>
+                    <p class="subtitle is-7 has-text-white">Top Speed</p>
+                </div>
+                <div id="d" class="center-column" style="border-left: 1px solid gray;">
+                    <p class="title has-text-white">900</span><span class="is-size-5">km</span></p>
+                    <p class="subtitle is-7 has-text-white">Battery Range</p>
+                </div>
+                <div id="e" class="center-column">
+                    <a class="button is-danger is-inverted is-rounded is-outlined has-text-weight-bold"
+                        style="width: 100%; border: 0.15em solid white;">
+                        Reserve Now
+                    </a>
+                </div>
+            </div>
+            
+        </main>
+        <!-- /.hero-foot -->
+
+    </section>
+    
+    <!-- /.hero -->
+    <script src="index.js"></script>
+</body>
+
+</html>
